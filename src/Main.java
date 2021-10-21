@@ -150,7 +150,7 @@ public class Main {
             createXML(systems, applications, "Microsoft Windows 10");
         } catch (ParserConfigurationException ex) {
             ex.printStackTrace(System.out);
-        } catch (DOMException ex) {
+        } catch (SAXException ex) {
             ex.printStackTrace(System.out);
         } catch (IOException ex) {
             ex.printStackTrace(System.out);
