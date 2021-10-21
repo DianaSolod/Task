@@ -122,11 +122,9 @@ public class Main {
             List<Software> systems = new ArrayList<Software>();
 
             DocumentBuilder documentBuilder = DocumentBuilderFactory.newInstance().newDocumentBuilder();
-            // Создается дерево DOM документа из файла
             Document document = documentBuilder.parse("programs.xml");
 
             Node root = document.getDocumentElement();
-            // Просматриваем все подэлементы
             NodeList programs = root.getChildNodes();
             for (int i = 0; i < programs.getLength(); i++) {
                 Node program = programs.item(i);
