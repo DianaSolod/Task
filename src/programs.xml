@@ -1,0 +1,126 @@
+<?xml version = "1.0"?>
+<software-info>
+    <software>
+        <name>Microsoft Windows 7</name>
+        <size>2700</size>
+        <price>4000</price>
+        <type>Operating system</type>
+    </software>
+    <software>
+        <name>Microsoft Windows 8</name>
+        <size>3072</size>
+        <price>7000</price>
+        <type>Operating system</type>
+    </software>
+    <software>
+        <name>Microsoft Windows 10</name>
+        <size>7000</size>
+        <price>10000</price>
+        <type>Operating system</type>
+    </software>
+    <software>
+        <name>Avast 1.0</name>
+        <size>2048</size>
+        <price>5000</price>
+        <type>Antivirus</type>
+        <requires>Microsoft Windows 7</requires>
+    </software>
+    <software>
+        <name>Avast 2.0</name>
+        <size>3000</size>
+        <price>6000</price>
+        <type>Antivirus</type>
+        <requires>MicroSoft Windows 8</requires>
+    </software>
+    <software>
+        <name>Avast 3.0</name>
+        <size>4000</size>
+        <price>7000</price>
+        <type>Antivirus</type>
+        <requires>Microsoft Windows 10</requires>
+    </software>
+  <software>
+        <name>Visual Studio 2008</name>
+        <size>2000</size>
+        <price>1500</price>
+        <type>IDE</type>
+        <requires>Microsoft Windows 7</requires>
+    </software>
+    <software>
+        <name>Visual Studio 2012</name>
+        <size>2500</size>
+        <price>3000</price>
+        <type>IDE</type>
+        <requires>Microsoft Windows 8</requires>
+    </software>
+    <software>
+        <name>Visual Studio 2019</name>
+        <size>3700</size>
+        <price>4000</price>
+        <type>IDE</type>
+        <requires>Microsoft Windows 10</requires>
+    </software>
+    <software>
+        <name>Microsoft Office 2007</name>
+        <size>900</size>
+        <price>3000</price>
+        <type>Office suite</type>
+        <requires>Microsoft Windows 7</requires>
+    </software>
+    <software>
+        <name>Microsoft Office 2011</name>
+        <size>1000</size>
+        <price>3500</price>
+        <type>Office suite</type>
+        <requires>Microsoft Windows 8</requires>
+    </software>
+    <software>
+        <name>Microsoft Office 2016</name>
+        <size>1500</size>
+        <price>4000</price>
+        <type>Office suite</type>
+        <requires>Microsoft Windows 10</requires>
+    </software>
+    <software>
+        <name>Google Chrome 2.0.172</name>
+        <size>800</size>
+        <price>1000</price>
+        <type>Browser</type>
+        <requires>Microsoft Windows 7</requires>
+    </software>
+    <software>
+        <name>Google Chrome 22.0.129</name>
+        <size>1200</size>
+        <price>1000</price>
+        <type>Browser</type>
+        <requires>Microsoft Windows 8</requires>
+    </software>
+    <software>
+        <name>Google Chrome 47.0.256</name>
+        <size>1700</size>
+        <price>1500</price>
+        <type>Browser</type>
+        <requires>Microsoft Windows 10</requires>
+    </software>
+    <software>
+        <name>VLC Media Player 2.1.2</name>
+        <size>500</size>
+        <price>700</price>
+        <type>Media player</type>
+        <requires>Microsoft Windows 7</requires>
+    </software>
+    <software>
+        <name>VLC Media Player 2.2.5</name>
+        <size>700</size>
+        <price>900</price>
+        <type>Media player</type>
+        <requires>Microsoft Windows 8</requires>
+    </software>
+    <software>
+        <name>VLC Media Player 3.0.8</name>
+        <size>900</size>
+        <price>1200</price>
+        <type>Media player</type>
+        <requires>Microsoft Windows 10</requires>
+    </software>
+</software-info>
