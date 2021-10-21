@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<software-package>
+    <software>
+        <name>Microsoft Windows 10</name>
+        <size>7000</size>
+        <price>10000</price>
+        <type>Operating system</type>
+    </software>
+    <software>
+        <name>Avast 3.0</name>
+        <size>4000</size>
+        <price>7000</price>
+        Antivirus
+        <type/>
+        <requires>Microsoft Windows 10</requires>
+    </software>
+    <software>
+        <name>Visual Studio 2019</name>
+        <size>3700</size>
+        <price>4000</price>
+        IDE
+        <type/>
+        <requires>Microsoft Windows 10</requires>
+    </software>
+    <software>
+        <name>Microsoft Office 2016</name>
+        <size>1500</size>
+        <price>4000</price>
+        Office suite
+        <type/>
+        <requires>Microsoft Windows 10</requires>
+    </software>
+    <software>
+        <name>Google Chrome 47.0.256</name>
+        <size>1700</size>
+        <price>1500</price>
+        Browser
+        <type/>
+        <requires>Microsoft Windows 10</requires>
+    </software>
+    <software>
+        <name>VLC Media Player 3.0.8</name>
+        <size>900</size>
+        <price>1200</price>
+        Media player
+        <type/>
+        <requires>Microsoft Windows 10</requires>
+    </software>
+    <full-price>27700</full-price>
+    <full-size>18800</full-size>
+</software-package>
