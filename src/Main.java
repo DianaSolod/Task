@@ -128,7 +128,7 @@ public class Main {
             NodeList programs = root.getChildNodes();
             for (int i = 0; i < programs.getLength(); i++) {
                 Node program = programs.item(i);
-                if (program.getNodeType() != Node.TEXT_NODE) {
+                if (program.getNodeType() == Node.ELEMENT_NODE) {
                     Element first = (Element) program;
 
                     String name = first.getElementsByTagName("name").item(0).getTextContent();
